@@ -1,0 +1,44 @@
+
+
+body{
+    background-color: rgba(0, 0, 0, 0);
+}
+h2{
+    margin:10px;
+}
+.feature-img {
+    width: 80%;
+    margin: auto;
+}
+.dc{
+    width: 70%;
+    margin: auto;
+}
+.container p{
+    font-size: 1.3em;
+}
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container ul li{
+    font-size: 20px;
+    margin-left: 79px;
+}
+.h1header{
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 40px;
+}
+@media(max-width:450px){
+    div.container p{
+        font-size: 1em;
+    }
+    div.container ul li{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+}
